@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(27, 92, 114);
+    padding: 30px;
+    /* border-bottom: 6px solid orange; */
+
+} 
+
+.header h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    
+}
+.Menu img{
+    width: 170px;
+    height: 120px;
+    border-radius: 3px;
+}
+.Menu{
+    gap: 20px;
+    display: flex;
+}
+.Menu button{
+    background-color: orange;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+}
+.menu-parent{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    padding: 20px;
+    justify-content: center;
+    column-gap: 15rem;
+    row-gap: 20px;
+}
+.Menu h2,p,h3{
+    margin-top: 7px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(27, 92, 114);
+    width: 100%;
+    padding: 20px; 
+} 
+.footer h1{
+    text-align: center;
+   
+    color: white;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.6) url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2VL2lBIO0n084OGxHV3IaZ8r0c9Z3X5IgTQ&usqp=CAU);
+    height: 900px;
+    background-blend-mode: darken;
+     background-repeat: no-repeat;
+     background-size: 100% 1000px;
+    
+}
+
+.parent{
+    background-color: indigo;
+    height: 930px;
+    width: 500px;
+    margin: 20px 30%;
+    padding-top: 20px;
+    /* position: fixed; */
+}
+
+.header-parent{
+   margin-left: 15px;
+    margin-top: 5px;
+    padding: 5px 7px;
+}
+
+.header-parent input{
+    border: none;
+}
+
+.forms{
+    color: white;
+    margin: 10px;
+    margin-left: 27px;
+    margin-top: 15px;
+
+  
+}
+.forms input{
+  margin-top: 5px;
+  border: none;
+ 
+}
+.forms label{
+    margin-top: 5px;
+}
+
+.check{
+    color: white;
+    margin-top: 15px;
+}
+.check input{
+margin-top: 5px;
+border: none;
+}
+.check label{
+    margin-top: 5px;
+}
+.last{
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+}
